@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.alchemer.com",
+  "name": "Alchemer",
+  "url": "https://www.alchemer.com",
+  "description": "Enterprise survey and experience management platform with a REST API for managing surveys, accessing response data, managing contacts, and automating survey workflows.",
+  "sameAs": [
+    "https://twitter.com/AlchemerHQ",
+    "https://www.linkedin.com/company/alchemer"
+  ],
+  "subjectOf": {
+    "@type": "WebSite",
+    "name": "Alchemer Developer Documentation",
+    "url": "https://apihelp.alchemer.com/help"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Alchemer REST API",
+    "description": "RESTful API v5 for managing surveys, responses, contacts, campaigns, and account resources within the Alchemer enterprise survey platform.",
+    "url": "https://apihelp.alchemer.com/help",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Alchemer REST API v5",
+        "description": "Access surveys, responses, contacts, campaigns, and account resources via REST. Supports multi-region deployments (US, EU, Canada, Australia) with API key and OAuth 1.0 authentication.",
+        "url": "https://api.alchemer.com/v5"
+      }
+    ]
+  }
+}
