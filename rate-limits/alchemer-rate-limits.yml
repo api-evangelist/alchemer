@@ -1,0 +1,64 @@
+name: Alchemer API Rate Limits
+description: API request limits and throttling behavior for the Alchemer REST API v5.
+url: https://apihelp.alchemer.com/help/api-request-limits
+limits:
+  - name: Requests Per Minute
+    description: Maximum number of API requests allowed per minute at the account level.
+    value: 240
+    unit: requests/minute
+    scope: account
+    plans:
+      - Professional
+      - Full Access
+      - Business Platform
+
+  - name: Identical Request Window
+    description: The same API call cannot be made more than once within a 60-second window.
+    value: 1
+    unit: per 60 seconds
+    scope: per endpoint
+
+  - name: Maximum Request Size
+    description: Maximum size of an individual API request body.
+    value: 8000
+    unit: bytes
+    recommended: 4000
+
+  - name: Request Timeout
+    description: API requests that exceed this duration will return a 500 error.
+    value: 30
+    unit: seconds
+
+  - name: Response Processing Delay
+    description: Responses may take up to this long to process after submission.
+    value: 5
+    unit: minutes
+
+  - name: GET Cache TTL
+    description: GET requests are cached and may return cached results within this window.
+    value: 60
+    unit: seconds
+
+throttling:
+  warningHeader: X-SG-Warning
+  warningMessage: "You are reaching your API request rate limit and may be throttled or blocked if you continue to make excessive requests."
+  warningThreshold: Less than 10% of rate limit remaining
+  cacheHeader: X-SG-Cached
+  cacheValue: "true"
+
+errorCodes:
+  - code: 429
+    description: Rate limit exceeded. Throttling lasts up to 1 minute after limit is hit.
+    causes:
+      - Request limit exceeded for the minute window
+      - Identical request made within 60-second deduplication window
+  - code: 400
+    description: Returned for 1 minute after timeout while throttling resets.
+  - code: 500
+    description: Request timed out after 30 seconds.
+  - code: 401
+    description: Invalid or revoked API token or secret.
+
+enforcement:
+  - Routine limit violations result in permanent API access termination
+  - Throttling resets within 1 minute of hitting the limit

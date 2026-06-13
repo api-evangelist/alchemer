@@ -1,0 +1,63 @@
+name: Alchemer FinOps
+description: Financial operations considerations for teams using the Alchemer API and platform, covering cost structure, API access gating, and budget planning.
+url: https://www.alchemer.com/plans-pricing/
+
+costModel:
+  type: per-seat
+  billingCycles:
+    - monthly
+    - annual
+  currency: USD
+  annualSavings: "43-52% vs monthly billing depending on plan"
+
+apiAccessCost:
+  tier: Business Platform
+  pricing: custom
+  notes: API access is exclusively available on the Business Platform plan. Teams requiring API integration must contact sales and move to a custom enterprise contract. There is no self-serve API access on any of the fixed-price plans.
+
+tiers:
+  - name: Collaborator
+    monthlyPerUser: 55
+    annualPerUser: 315
+    maxUsers: 3
+    responseLimit: 75000
+    apiAccess: false
+
+  - name: Professional
+    monthlyPerUser: 165
+    annualPerUser: 1075
+    maxUsers: 3
+    responseLimit: 100000
+    apiAccess: false
+
+  - name: Full Access
+    monthlyPerUser: 275
+    annualPerUser: 1895
+    maxUsers: 3
+    responseLimit: 125000
+    apiAccess: false
+
+  - name: Business Platform
+    monthlyPerUser: custom
+    annualPerUser: custom
+    maxUsers: unlimited
+    responseLimit: custom
+    apiAccess: true
+
+costOptimization:
+  - recommendation: Use annual billing to save 43-52% versus monthly rates
+  - recommendation: Teams with fewer than 3 users requiring only basic surveys should start with Collaborator
+  - recommendation: API integration requirements necessitate a Business Platform contract; budget for custom enterprise pricing
+  - recommendation: Monitor rate limits (240 req/min) to avoid API access termination due to repeated violations
+  - recommendation: Use GET caching (60-second TTL) to reduce unnecessary API calls and stay within rate limits
+
+budgetConsiderations:
+  - API access requires Business Platform with custom/negotiated pricing
+  - Enterprise estimate for 100-user deployments typically ranges from $4,900 to $9,900/month
+  - Response overages should be negotiated in Business Platform contract
+  - Multi-region deployments (US, EU, CA, AU) may have separate contract implications
+
+risks:
+  - Routine API rate limit violations result in API access termination, potentially disrupting operations
+  - API access is not available on fixed-price plans, creating a hard cost cliff when API integration is required
+  - No free tier; minimum spend starts at $55/user/month for basic plans

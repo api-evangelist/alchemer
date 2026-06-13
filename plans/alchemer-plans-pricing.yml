@@ -1,0 +1,75 @@
+name: Alchemer Plans and Pricing
+description: Pricing plans and features for the Alchemer enterprise survey and experience management platform.
+url: https://www.alchemer.com/plans-pricing/
+plans:
+  - name: Collaborator
+    description: Best for individuals or small teams needing basic polls and surveys.
+    price: 55
+    unit: user/month
+    annualPrice: 315
+    annualUnit: user/year
+    maxUsers: 3
+    features:
+      - Unlimited surveys
+      - 75,000 annual responses
+      - Email support
+      - Basic question types
+      - Standard reporting
+    apiAccess: false
+
+  - name: Professional
+    description: Best for teams wanting additional data collection and reporting capabilities.
+    price: 165
+    unit: user/month
+    annualPrice: 1075
+    annualUnit: user/year
+    maxUsers: 3
+    features:
+      - All Collaborator features
+      - 100,000 annual responses
+      - Custom branding
+      - Advanced logic and scripting
+      - Custom templates
+      - HIPAA compliance
+      - Multilingual surveys
+      - SPSS export
+      - Email and phone support
+    apiAccess: false
+
+  - name: Full Access
+    description: Best for small teams needing advanced market research capabilities.
+    price: 275
+    unit: user/month
+    annualPrice: 1895
+    annualUnit: user/year
+    maxUsers: 3
+    features:
+      - All Professional features
+      - 125,000 annual responses
+      - Advanced research question types
+      - Statistical analysis tools
+      - Advanced reporting tools
+    apiAccess: false
+
+  - name: Business Platform
+    description: For teams with complex feedback requirements and enterprise-scale needs.
+    price: custom
+    unit: contact sales
+    maxUsers: unlimited
+    features:
+      - Omnichannel feedback collection
+      - 400+ integrations
+      - AI text analysis
+      - Dedicated success manager
+      - Enterprise security
+      - SSO controls
+      - 24/7 support
+      - Custom response limits
+    apiAccess: true
+    apiNotes: API access is only available for Business Platform accounts.
+
+notes:
+  - Free trial available (7 days, no credit card required)
+  - All pricing in USD
+  - Small team plans capped at 3 users; beyond requires Business Platform
+  - API access restricted to Business Platform tier
