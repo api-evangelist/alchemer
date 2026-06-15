@@ -5,56 +5,89 @@
     {
       "title": "How the Buffalo Sabres turn fan feedback into a winning game plan",
       "url": "https://www.alchemer.com/resources/blog/how-the-buffalo-sabres-turn-fan-feedback-into-a-winning-game-plan/",
-      "categories": ["Voice of the Customer"],
+      "categories": [
+        "Voice of the Customer"
+      ],
       "description": "Explores how a major hockey organization leverages fan input to enhance their strategy."
     },
     {
       "title": "Webinar recap: Switching to Alchemer: A practical guide to onboarding and migration",
       "url": "https://www.alchemer.com/resources/blog/webinar-recap-switching-to-alchemer-a-practical-guide-to-onboarding-and-migration/",
-      "categories": ["Onboarding", "Webinars"],
+      "categories": [
+        "Onboarding",
+        "Webinars"
+      ],
       "description": "Addresses concerns about transitioning from other survey platforms."
     },
     {
       "title": "Alchemer Research Reveals Gender Divide in Healthcare Satisfaction Priorities",
       "url": "https://www.alchemer.com/resources/blog/alchemer-research-reveals-gender-divide-in-healthcare-satisfaction-priorities/",
-      "categories": ["Press Release"],
+      "categories": [
+        "Press Release"
+      ],
       "description": "2026 Healthcare Experience Report examining different satisfaction factors between genders."
     },
     {
       "title": "Don't kill your survey program. Fix it!",
       "url": "https://www.alchemer.com/resources/blog/dont-kill-your-survey-program-fix-it/",
-      "categories": ["Alchemer Survey", "Survey Tips"],
+      "categories": [
+        "Alchemer Survey",
+        "Survey Tips"
+      ],
       "description": "Offers guidance for improving struggling survey initiatives rather than abandoning them."
     },
     {
       "title": "Buffalo Sabres Elevate NHL Fan Experience with Alchemer's AI-Powered Feedback Technology",
       "url": "https://www.alchemer.com/resources/blog/buffalo-sabres-alchemer-ai-powered-feedback/",
-      "categories": ["Press Release"],
+      "categories": [
+        "Press Release"
+      ],
       "description": "Announces partnership utilizing AI feedback solutions for professional sports engagement."
     },
     {
       "title": "2026 Higher-Ed Report: How student and parent sentiment diverge",
       "url": "https://www.alchemer.com/resources/blog/higher-ed-sentiment-2026/",
-      "categories": ["Community Engagement", "Education"],
+      "categories": [
+        "Community Engagement",
+        "Education"
+      ],
       "description": "Survey of 286 enrolled students and parents examining differing perspectives in higher education."
     },
     {
       "title": "K-12 parent sentiment in 2026: 7 numbers reshaping how K-12 schools build trust",
       "url": "https://www.alchemer.com/resources/blog/k-12-parent-sentiment-in-2026/",
-      "categories": ["Community Engagement", "Education"],
+      "categories": [
+        "Community Engagement",
+        "Education"
+      ],
       "description": "Presents data on how schools are rebuilding parent trust after pandemic-era disruption."
     },
     {
       "title": "Turn surveys into conversations with AI Smart Question",
       "url": "https://www.alchemer.com/resources/blog/turn-surveys-into-conversations-with-ai-smart-question/",
-      "categories": ["AI", "Alchemer Connect", "Alchemer Survey"],
+      "categories": [
+        "AI",
+        "Alchemer Connect",
+        "Alchemer Survey"
+      ],
       "description": "Demonstrates how AI features can transform surveys into interactive dialogues with respondents."
     },
     {
       "title": "Customer engagement 101: What it is, why it matters, and how to do it well",
       "url": "https://www.alchemer.com/resources/blog/customer-engagement-101/",
-      "categories": ["Customer Feedback"],
+      "categories": [
+        "Customer Feedback"
+      ],
       "description": "Foundational guide addressing common questions about developing effective engagement strategies."
     }
-  ]
+  ],
+  "repo": "alchemer",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/alchemer",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
