@@ -1,7 +1,7 @@
 aid: alchemer
 name: Alchemer
 description: Enterprise survey and experience management platform with a REST API for managing surveys, accessing response data, managing contacts, and automating survey workflows. The Alchemer REST API v5 supports multi-region deployments across US, EU, Canada, and Australia, with API key and OAuth 1.0 authentication. API access is available exclusively on Business Platform accounts.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/alchemer/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -17,7 +17,7 @@ apis:
   - aid: alchemer:alchemer-rest-api
     name: Alchemer REST API
     description: RESTful API v5 for managing surveys, responses, contacts, campaigns, and account resources within the Alchemer enterprise survey platform.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://apihelp.alchemer.com/help
     baseURL: https://api.alchemer.com/v5
     tags:
