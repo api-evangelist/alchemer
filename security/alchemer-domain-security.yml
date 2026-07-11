@@ -1,0 +1,26 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.alchemer.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 23 11:24:19 2026 GMT
+  hsts: null
+- host: apihelp.alchemer.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 18 14:57:17 2026 GMT
+  hsts: false
+- host: api.alchemer.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Feb 25 23:59:59 2027 GMT
+  hsts: null
+domains:
+- domain: alchemer.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
