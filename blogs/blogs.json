@@ -2,14 +2,13 @@
   "repo": "alchemer",
   "feeds": [
     {
-      "source": "https://www.alchemer.com/feed/",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://www.linkedin.com/company/alchemer",
-      "error": "HTTPError"
+      "feed_url": "https://www.linkedin.com/company/alchemer",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-07-11T11:50:51Z",
+  "fetched": "2026-08-01T15:49:00Z",
   "post_count": 5
 }
