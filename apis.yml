@@ -1,6 +1,17 @@
 aid: alchemer
 name: Alchemer
 description: Enterprise survey and experience management platform with a REST API for managing surveys, accessing response data, managing contacts, and automating survey workflows. The Alchemer REST API v5 supports multi-region deployments across US, EU, Canada, and Australia, with API key and OAuth 1.0 authentication. API access is available exclusively on Business Platform accounts.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
