@@ -30,6 +30,13 @@ created: '2026-06-13'
 modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
+  - Surveys
+  - Experience Management
+  - Feedback
+  - Data Collection
+  - Enterprise
+  - Forms
+tags_raw:
   - Survey
   - Experience Management
   - Feedback
@@ -44,6 +51,11 @@ apis:
     humanURL: https://apihelp.alchemer.com/help
     baseURL: https://api.alchemer.com/v5
     tags:
+      - Surveys
+      - Responses
+      - Contacts
+      - Campaigns
+    tags_raw:
       - Survey
       - Responses
       - Contacts
