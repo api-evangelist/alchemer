@@ -77,3 +77,39 @@ notes:
   - All pricing in USD
   - Small team plans capped at 3 users; beyond requires Business Platform
   - API access restricted to Business Platform tier
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  - subscription
+  units: []
+  plans:
+  - name: Collaborator
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Professional
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Full Access
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Business Platform
+    access: other
+    model: negotiated
+    model_how: derived
+    units:
+    - other
+    periods: []
