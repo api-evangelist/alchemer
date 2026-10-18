@@ -40,5 +40,5 @@
     - connectors/applications/alchemer
     vendor_link: https://www.alchemer.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
