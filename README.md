@@ -64,25 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Enterprise survey and experience management platform with a REST API for managing surveys, accessing response data, managing contacts, and automating survey workflows.
+Enterprise survey and experience management platform with a REST API for managing surveys, accessing response data, managing contacts, and automating survey workflows. The Alchemer REST API v5 supports multi-region deployments across US, EU, Canada, and Australia, with API key and OAuth 1.0 authentication. API access is available exclusively on Business Platform accounts.
 
-**Website:** https://www.alchemer.com  
-**API Docs:** https://apihelp.alchemer.com/help  
-**Developer Home:** https://developer.alchemer.com/help  
-**Status:** https://alchemer.statuspage.io/  
+**Areas:** Surveys · Experience Management · Feedback · Data Collection · Enterprise · Forms
 
-## API
+## Alchemer on APIs.io
 
-The Alchemer REST API v5 provides programmatic access to surveys, responses, contacts, campaigns, and account management. API access is available exclusively on Business Platform accounts.
+Everything profiled for Alchemer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alchemer/](https://apis.io/providers/alchemer/)** — or go straight to one of the APIs or properties below.
 
-**Base URL (US):** `https://api.alchemer.com/v5`  
-**Auth:** API Key + Secret, or OAuth 1.0  
-**Rate Limit:** 240 requests/minute (account-level)  
-**Regions:** US, EU (`.eu`), Canada (`-ca.com`), Australia (`app.au.alchemer.com`)  
+### APIs (1)
 
-## Resources
+- [Alchemer REST API](https://apis.io/apis/alchemer/alchemer-rest-api/) — RESTful API v5 for managing surveys, responses, contacts, campaigns, and account resources within the Alchemer enterprise survey platform.
 
-- [apis.yml](apis.yml) — APIs.json 0.19 provider profile
-- [plans/alchemer-plans-pricing.yml](plans/alchemer-plans-pricing.yml) — Pricing tiers and features
-- [rate-limits/alchemer-rate-limits.yml](rate-limits/alchemer-rate-limits.yml) — Rate limit details
-- [finops/alchemer-finops.yml](finops/alchemer-finops.yml) — FinOps cost guidance
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alchemer Domain Security](https://apis.io/security/alchemer/alchemer-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Alchemer Plans Pricing](https://apis.io/plans/alchemer/alchemer-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Alchemer Rate Limits](https://apis.io/rate-limits/alchemer/alchemer-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Alchemer Finops](https://apis.io/finops/alchemer/alchemer-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.alchemer.com)
+- [Documentation](https://apihelp.alchemer.com/help)
+- [Pricing](https://www.alchemer.com/plans-pricing/)
+- [Blog](https://www.alchemer.com/resources/blog/)
+- [Status](https://alchemer.statuspage.io/)
+
+## API Evangelist rating
+
+**Kin Score 20.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 18.4 |
+
+**Agent readiness 5.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alchemer/](https://apis.io/providers/alchemer/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alchemer: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alchemer/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
